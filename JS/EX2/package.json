@@ -1,0 +1,16 @@
+{
+  "name": "ex2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack-dev-server --entry ./webapp/js/index.js --output-filename ./dist/bundle.js"
+
+  },
+  "author": "Robin",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack-dev-server": "^2.9.3"
+  }
+}
