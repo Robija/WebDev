@@ -1,0 +1,17 @@
+{
+  "name": "ex1",
+  "version": "1.0.0",
+  "description": "centering div/img/text, etc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack-dev-server ./webapp/index.html",
+    "watch": " webpack --watch"
+  },
+  "author": "Igor",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^3.8.1",
+    "webpack-dev-server": "^2.9.4"
+  }
+}
